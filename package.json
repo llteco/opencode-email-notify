@@ -1,0 +1,29 @@
+{
+  "name": "opencode-email-notify",
+  "version": "1.0.0",
+  "description": "OpenCode plugin to send email notifications on session.idle",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "notify",
+    "email"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "socks": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/nodemailer": "^6.4.15",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  // SMTP 服务器配置
+  "SMTP_HOST": "smtp.126.com",
+  "SMTP_PORT": "465",
+  "SMTP_USER": "user-name@126.com",
+
+  // 密码认证（与 OAuth2 二选一）
+  // "SMTP_PASS": "your-password-or-app-password",
+
+  // OAuth2 认证（与密码认证二选一）
+  // "SMTP_OAUTH2_ACCESS_TOKEN": "ya29.xxx",
+
+  // 代理配置（可选）
+  // "SMTP_PROXY": "socks5://127.0.0.1:1080",
+  // "SMTP_PROXY": "http://proxy.company.com:8080",
+
+  // 通知配置
+  // "NOTIFY_TO": "user1@gmail.com,user2@gmail.com",
+  // "NOTIFY_FROM": "user-name@126.com",
+
+  // 频率控制：最小发送间隔（毫秒），默认 10 分钟
+  "NOTIFY_MIN_INTERVAL_MS": "600000",
+
+  // Dry Run 模式：true 时只打印日志，不真正发送邮件
+  "NOTIFY_DRY_RUN": "false"
+}
